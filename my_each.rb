@@ -5,7 +5,7 @@ def my_each(collection)
     i = 0 
    
     
-    while i < collection.sort 
+    while i < collection.length 
       yield(collection[i])
       i = i + 1 
     end
